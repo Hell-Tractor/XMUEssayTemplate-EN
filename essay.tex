@@ -1,0 +1,116 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{lastpage}
+\usepackage{geometry}
+
+\newcommand{\headfont}[1]{\huge{\songti{\textbf{#1}}}}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1ex}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1ex}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{1ex}{}
+\titleformat{\paragraph}{\rmfamily\normalsize}{\setlength{\baselineskip}{18pt}\theparagraph}{0ex}{}
+\titlespacing{\paragraph}{0pt}{0pt}{0pt}
+\titlespacing{\section}{0pt}{0.5em}{0.5em}
+\titlespacing{\subsection}{0pt}{0.5em}{0.5em}
+
+\geometry{a4paper}
+
+\begin{document}
+  \begin{titlepage}
+    \begin{center}
+      \includegraphics{pic/badge.png}\\[2em]
+      \headfont{本科生}
+      \includegraphics{pic/schoolName.png}
+      \headfont{期末论文}\\[2ex]
+      \songti{
+        \Large{
+          标题\\[2ex]
+          姓名：\rule[0pt]{5cm}{0.05em}\\
+          学院：\rule[0pt]{5cm}{0.05em}\\
+          院系：\rule[0pt]{5cm}{0.05em}\\
+          专业：\rule[0pt]{5cm}{0.05em}\\
+          年级：\rule[0pt]{5cm}{0.05em}\\
+          学号：\rule[0pt]{5cm}{0.05em}\\[2em]
+        }
+        \rightline{\today}
+      }
+    \end{center}
+  \end{titlepage}
+
+  \newpagestyle{main}{
+    \sethead{}{}{}
+    \setfoot{}{第\,\thepage\,页\ 共\,\pageref{LastPage}\,页}{}
+  }
+  \pagestyle{main}
+
+  ~\\[3em]
+  
+  \begin{center}
+    \Large{\textbf{
+      A Psychological Analysis of Isabel's Marriage Dilemma\\
+      in \emph{The Portrait of a Lady}
+    }}    
+  \end{center}
+
+  \paragraph{
+    \textbf{Abstract:} % 约250词
+    As an outstanding American novelist, stylist and critic in the nineteenth century, Henry James leaves us with numerous classics. The Portrait of a Lady, one of the masterpieces of his early phase, has won many critical acclaims since its first publication in 1881. Some reviewers don't understand the novel's ending: the independent Isabel chooses to maintain a miserable marriage with the hypocritical Osmond. As for the puzzling ending, many scholars from home and abroad have attempted to give reasonable explanations from different perspectives. However, few people find its research value from the point of psychology. Based on the previous research on the explanations of Isabel's tragedy, the paper tries to interpret her marriage dilemma in the psychological perspective by applying Freudian psychoanalytic theories, mainly the Personality Structure and Oedipus complex. Isabel's marriage dilemma results from Isabel's conflict between the id and the superego. The former is represented by her drive of freedom and imagination; the latter is represented by her commitment to social requirement and her ego-ideal of self perfection by learning European civilization. The paper also reiterates Isabel's self maturity through the suffering of her marriage tragedy.
+  }
+  \paragraph{
+    \textbf{Key words:}
+    The Portrait of a Lady; Isabel's marriage dilemma; Personality Structure; id; superego
+  }
+  \newpage
+  \section{Introduction}
+  \paragraph{
+    \hspace{4ex}Henry James (1843—1916) is an outstanding novelist, and an influential critic and a pioneer of psychological realism in the 19th and early 20th century. \emph{The Portrait of a Lady} is regarded as the masterpiece of his early phase of writing for his masterful creation of character, his unique international theme, his assured command of the English language, and especially his imaginative use of point of view and interior monologue.
+  }
+  \subsection{Life and Career of Henry James}
+  \paragraph{
+    \hspace{4ex}Henry James was born into a wealthy American family in 1843. His father, Henry James Sr., was one of the best-known intellectuals in mid-nineteenth-century America. In his youth James traveled back and forth between Europe and America, which inspired him to create the international theme. At the age of 19 he briefly attended Harvard Law School, but soon dropped out. Two years later, he devoted himself to literature. By his mid-twenties James earned admiration for his writing skills. James himself moved to Europe early on in his professional career and was naturalized as a British citizen in 1915 shortly before his death. He never married and perhaps this gave him time to write: in the four decades of his writing career, he produced nearly 100 books, including such classics as \emph{The Golden Bowl}, \emph{The Wings of the Dove}, and \emph{The Art of Fiction}, varied from novels to essays, from plays to autobiographies.
+  }
+  \subsection{A Brief Introduction to \emph{The Portrait of a Lady}}
+  \paragraph{%直接引用 (作者姓, 年份: 页数)
+    \hspace{4ex}First written in the 1880s and revised in 1908, The Portrait of a Lady is the story of a spirited young American woman, Isabel Archer, who "affronts her destiny" (James, 1996:8). The main plot of this novel is as follows: Isabel is invited by her aunt Mrs Touchett to experience life in Europe. There, she in her desire to preserve her independence refuses to marry either the English gentleman Lord Warburton or the wealthy American Caspar Goodwood.
+  }
+  \subsection{Critical Review of The Portrait of a Lady}
+  \paragraph{
+    \hspace{4ex}they don’t understand the novel’s ending. As for the puzzling ending, many scholars from home and abroad have attempted to give reasonable explanations from different perspectives. Jonathan Freedman regards "Isabel's final choice, to return to her marriage, is her triumph" (Freedman, 2000: 115).
+  }
+  \subsection{The Wirting Purpose}
+  \paragraph{
+    \hspace{4ex}...
+  }
+  \section{Psychoanalytic Theories of Freud}
+  \paragraph{
+    \hspace{4ex}...
+  }
+  \section{Freudian Analysis on Isabel’s Marriage Dilemma}
+  \paragraph{
+    \hspace{4ex}...
+  }
+  \subsection{Isabel’s Indulgent Id}
+  \paragraph{
+    \hspace{4ex}...
+  }
+  \subsubsection{Isabel’s Instinct of Freedom}
+  \paragraph{
+    \hspace{4ex}...
+  }
+  \section{Conclusion}
+  \paragraph{
+    \hspace{4ex}...
+  }
+
+  \newpage
+
+  ~\\[1em]
+  \begin{center}
+    \large{\textbf{
+      References
+    }}\\[2em]
+  \end{center}
+  \bibliography{references}
+  \bibliographystyle{ieeetr}
+\end{document}
